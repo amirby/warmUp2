@@ -22,9 +22,9 @@ Technical Details
     -The maximum size of a range will be 100 integers
     -The starting number of a range will be: 0 < n < 100
  */
-function mysteryRange(str, range){
+function mysteryRange(str, nbr){
     var array =[];
-    var result=[];
+    var range=[];
     for (var i = 0 ; i < str.length ; i++){
         if ((str[i]==='1') && (i != str.length-1)){
             array.push(Number(str[i]+str[i+1]))
@@ -43,6 +43,6 @@ function mysteryRange(str, range){
             min = array[i]
         }
     }
-    result.push(min,max);
-    return result
+    range.push(min,max);
+    return range
 }
