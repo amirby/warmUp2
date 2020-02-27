@@ -6,7 +6,8 @@ Input
         An integer value representing the size of the range
 
 Output
-    Your function should return the starting (minimum) and ending (maximum) numbers of the range in the form of an array/list comprised of two integers.
+    Your function should return the starting (minimum) and ending (maximum) numbers of the range in the form of
+     an array/list comprised of two integers.
     Test Example
 
     let inputString = '1568141291110137';
